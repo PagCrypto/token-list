@@ -1,0 +1,134 @@
+{
+  "chains": [
+    {
+      "id": 1,
+      "name": "Solana",
+      "symbol": "SOL",
+      "explorer": "https://explorer.solana.com",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+      "assets": [
+        {
+          "id": 1,
+          "symbol": "SOL",
+          "name": "Solana",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+          "address": "native",
+          "oracleId": "ef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
+          "decimals": 9,
+          "status": true,
+          "wrappedKey": "WSOL"
+        },
+        {
+          "id": 2,
+          "symbol": "USDT",
+          "name": "Tether",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+          "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "oracleId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+          "decimals": 6,
+          "status": true
+        },
+        {
+          "id": 3,
+          "symbol": "USDC",
+          "name": "USD Coin",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+          "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "oracleId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+          "decimals": 6,
+          "status": true
+        },
+        {
+          "id": 4,
+          "symbol": "WETH",
+          "name": "Wrapped Ether (Wormhole)",
+          "icon": "https://statics.solscan.io/cdn/imgs/s60?ref=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f736f6c616e612d6c6162732f746f6b656e2d6c6973742f6d61696e2f6173736574732f6d61696e6e65742f37766643585455587835574a56354a41446b313744554a346b736761753775744e4b6a3462393633766f78732f6c6f676f2e706e67",
+          "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "oracleId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+          "decimals": 8,
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "explorer": "https://www.blockchain.com/explorer",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
+      "assets": [
+        {
+          "id": 5,
+          "symbol": "BTC",
+          "name": "Bitcoin",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
+          "address": "",
+          "oracleId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+          "decimals": 8,
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "explorer": "https://etherscan.io",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+      "assets": [
+        {
+          "id": 6,
+          "symbol": "ETH",
+          "name": "Ethereum",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+          "address": "native",
+          "oracleId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+          "decimals": 18,
+          "status": true,
+          "wrappedKey": "WETH"
+        },
+        {
+          "id": 7,
+          "symbol": "WETH",
+          "name": "Wrapped Ethereum",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "oracleId": "",
+          "decimals": 18,
+          "status": true
+        },
+        {
+          "id": 8,
+          "symbol": "WSOL",
+          "name": "Wrapped SOL (Wormhole)",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+          "address": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c",
+          "oracleId": "",
+          "decimals": 9,
+          "original": "Solana",
+          "status": true
+        },
+        {
+          "id": 9,
+          "symbol": "USDT",
+          "name": "Tether",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "oracleId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+          "decimals": 6,
+          "status": true
+        },
+        {
+          "id": 10,
+          "symbol": "USDC",
+          "name": "USDC",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "oracleId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+          "decimals": 6,
+          "status": true
+        }
+      ]
+    }
+  ]
+}
