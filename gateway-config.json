@@ -1,4 +1,23 @@
 {
+  "coinGeckoMappingIds": {
+    "sol": "solana",
+    "wsol": "solana",
+    "usdc": "usd",
+    "wusdc": "usd",
+    "usdt": "usd",
+    "wusdt": "usd",
+    "eth": "ethereum",
+    "weth": "ethereum",
+    "soeth": "ethereum",
+    "btc": "bitcoin",
+    "wbtc": "bitcoin",
+    "ada": "cardano",
+    "bnb": "binancecoin",
+    "doge": "dogecoin",
+    "dot": "polkadot",
+    "matic": "polygon",
+    "trump": "official-trump"
+  },
   "chains": [
     {
       "id": 1,
@@ -6,6 +25,7 @@
       "symbol": "SOL",
       "explorer": "https://solscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
+      "status": true,
       "assets": [
         {
           "id": 1,
@@ -66,6 +86,7 @@
       "symbol": "BTC",
       "explorer": "https://www.blockchain.com/explorer",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
+      "status": false,
       "assets": [
         {
           "id": 6,
@@ -75,7 +96,7 @@
           "address": "",
           "oracleId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
           "decimals": 8,
-          "status": true
+          "status": false
         }
       ]
     },
@@ -85,6 +106,7 @@
       "symbol": "ETH",
       "explorer": "https://etherscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+      "status": false,
       "assets": [
         {
           "id": 7,
@@ -94,7 +116,7 @@
           "address": "native",
           "oracleId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
           "decimals": 18,
-          "status": true,
+          "status": false,
           "wrappedKey": "WETH"
         },
         {
@@ -105,7 +127,7 @@
           "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
           "oracleId": "",
           "decimals": 18,
-          "status": true
+          "status": false
         },
         {
           "id": 9,
@@ -116,7 +138,7 @@
           "oracleId": "",
           "decimals": 9,
           "original": "Solana",
-          "status": true
+          "status": false
         },
         {
           "id": 10,
@@ -126,7 +148,7 @@
           "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
           "oracleId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
           "decimals": 6,
-          "status": true
+          "status": false
         },
         {
           "id": 11,
@@ -136,7 +158,7 @@
           "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
           "oracleId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 6,
-          "status": true
+          "status": false
         }
       ]
     }
