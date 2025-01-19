@@ -20,21 +20,21 @@
         },
         {
           "id": 2,
+          "symbol": "TRUMP",
+          "name": "OFFICIAL TRUMP",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/35336.png",
+          "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "oracleId": "879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
+          "decimals": 6,
+          "status": false
+        },
+        {
+          "id": 3,
           "symbol": "USDT",
           "name": "Tether",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
           "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
           "oracleId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
-          "decimals": 6,
-          "status": true
-        },
-        {
-          "id": 3,
-          "symbol": "TRUMP",
-          "name": "OFFICIAL TRUMP",
-          "icon": "https://arweave.net/VQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw",
-          "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
-          "oracleId": "879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
           "decimals": 6,
           "status": true
         },
