@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Solana",
       "symbol": "SOL",
-      "explorer": "https://explorer.solana.com",
+      "explorer": "https://solscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
       "assets": [
         {
@@ -30,6 +30,16 @@
         },
         {
           "id": 3,
+          "symbol": "TRUMP",
+          "name": "OFFICIAL TRUMP",
+          "icon": "https://arweave.net/VQrPjACwnQRmxdKBTqNwPiyo65x7LAT773t8Kd7YBzw",
+          "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "oracleId": "879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
+          "decimals": 6,
+          "status": true
+        },
+        {
+          "id": 4,
           "symbol": "USDC",
           "name": "USD Coin",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
@@ -39,7 +49,7 @@
           "status": true
         },
         {
-          "id": 4,
+          "id": 5,
           "symbol": "WETH",
           "name": "Wrapped Ether (Wormhole)",
           "icon": "https://statics.solscan.io/cdn/imgs/s60?ref=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f736f6c616e612d6c6162732f746f6b656e2d6c6973742f6d61696e2f6173736574732f6d61696e6e65742f37766643585455587835574a56354a41446b313744554a346b736761753775744e4b6a3462393633766f78732f6c6f676f2e706e67",
@@ -58,7 +68,7 @@
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
       "assets": [
         {
-          "id": 5,
+          "id": 6,
           "symbol": "BTC",
           "name": "Bitcoin",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
@@ -77,7 +87,7 @@
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
       "assets": [
         {
-          "id": 6,
+          "id": 7,
           "symbol": "ETH",
           "name": "Ethereum",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
@@ -88,7 +98,7 @@
           "wrappedKey": "WETH"
         },
         {
-          "id": 7,
+          "id": 8,
           "symbol": "WETH",
           "name": "Wrapped Ethereum",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
@@ -98,7 +108,7 @@
           "status": true
         },
         {
-          "id": 8,
+          "id": 9,
           "symbol": "WSOL",
           "name": "Wrapped SOL (Wormhole)",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
@@ -109,7 +119,7 @@
           "status": true
         },
         {
-          "id": 9,
+          "id": 10,
           "symbol": "USDT",
           "name": "Tether",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
@@ -119,7 +129,7 @@
           "status": true
         },
         {
-          "id": 10,
+          "id": 11,
           "symbol": "USDC",
           "name": "USDC",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
