@@ -1,23 +1,4 @@
 {
-  "coinGeckoMappingIds": {
-    "sol": "solana",
-    "wsol": "solana",
-    "usdc": "usd",
-    "wusdc": "usd",
-    "usdt": "usd",
-    "wusdt": "usd",
-    "eth": "ethereum",
-    "weth": "ethereum",
-    "soeth": "ethereum",
-    "btc": "bitcoin",
-    "wbtc": "bitcoin",
-    "ada": "cardano",
-    "bnb": "binancecoin",
-    "doge": "dogecoin",
-    "dot": "polkadot",
-    "matic": "polygon",
-    "trump": "official-trump"
-  },
   "chains": [
     {
       "id": 1,
@@ -37,6 +18,7 @@
           "decimals": 9,
           "status": true,
           "wrappedKey": "WSOL",
+          "chainName": "Solana",
           "coinGeckoId": "solana"
         },
         {
@@ -48,6 +30,7 @@
           "oracleId": "879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
           "decimals": 6,
           "status": false,
+          "chainName": "Solana",
           "coinGeckoId": "official-trump"
         },
         {
@@ -59,6 +42,7 @@
           "oracleId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
           "decimals": 6,
           "status": true,
+          "chainName": "Solana",
           "coinGeckoId": "usd"
         },
         {
@@ -70,6 +54,7 @@
           "oracleId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 6,
           "status": true,
+          "chainName": "Solana",
           "coinGeckoId": "usd"
         },
         {
@@ -81,6 +66,7 @@
           "oracleId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
           "decimals": 8,
           "status": true,
+          "chainName": "Solana",
           "coinGeckoId": "ethereum"
         }
       ]
@@ -102,6 +88,7 @@
           "oracleId": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
           "decimals": 8,
           "status": false,
+          "chainName": "Bitcoin",
           "coinGeckoId": "bitcoin"
         }
       ]
@@ -124,6 +111,7 @@
           "decimals": 18,
           "status": false,
           "wrappedKey": "WETH",
+          "chainName": "Ethereum",
           "coinGeckoId": "ethereum"
         },
         {
@@ -135,6 +123,7 @@
           "oracleId": "",
           "decimals": 18,
           "status": false,
+          "chainName": "Ethereum",
           "coinGeckoId": "ethereum"
         },
         {
@@ -147,6 +136,7 @@
           "decimals": 9,
           "original": "Solana",
           "status": false,
+          "chainName": "Ethereum",
           "coinGeckoId": "solana"
         },
         {
@@ -158,6 +148,7 @@
           "oracleId": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
           "decimals": 6,
           "status": false,
+          "chainName": "Ethereum",
           "coinGeckoId": "usd"
         },
         {
@@ -169,6 +160,7 @@
           "oracleId": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 6,
           "status": false,
+          "chainName": "Ethereum",
           "coinGeckoId": "usd"
         }
       ]
