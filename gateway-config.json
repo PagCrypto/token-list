@@ -20,7 +20,8 @@
           "status": true,
           "wrappedKey": "WSOL",
           "chainName": "Solana",
-          "coinGeckoId": "solana"
+          "coinGeckoId": "solana",
+          "tokenVariant": "native"
         },
         {
           "id": 2,
@@ -33,7 +34,8 @@
           "order": 10,
           "status": false,
           "chainName": "Solana",
-          "coinGeckoId": "official-trump"
+          "coinGeckoId": "official-trump",
+          "tokenVariant": "spl"
         },
         {
           "id": 3,
@@ -46,7 +48,8 @@
           "order": 2,
           "status": true,
           "chainName": "Solana",
-          "coinGeckoId": "usd"
+          "coinGeckoId": "usd",
+          "tokenVariant": "spl"
         },
         {
           "id": 4,
@@ -59,7 +62,8 @@
           "order": 3,
           "status": true,
           "chainName": "Solana",
-          "coinGeckoId": "usd"
+          "coinGeckoId": "usd",
+          "tokenVariant": "spl"
         },
         {
           "id": 5,
@@ -72,7 +76,8 @@
           "order": 5,
           "status": true,
           "chainName": "Solana",
-          "coinGeckoId": "ethereum"
+          "coinGeckoId": "ethereum",
+          "tokenVariant": "spl"
         },
         {
           "id": 12,
@@ -86,7 +91,8 @@
           "status": true,
           "chainName": "Solana",
           "coinGeckoId": "paypal-usd",
-          "metadataUri": "https://token-metadata.paxos.com/pyusd_metadata/prod/solana/pyusd_metadata.json"
+          "metadataUri": "https://token-metadata.paxos.com/pyusd_metadata/prod/solana/pyusd_metadata.json",
+          "tokenVariant": "spl"
         },
         {
           "id": 13,
@@ -100,7 +106,8 @@
           "status": true,
           "chainName": "Solana",
           "coinGeckoId": "pump-fun",
-          "metadataUri": "https://ipfs.io/ipfs/bafkreibcglldkfdekdkxgumlveoe6qv3pbiceypkwtli33clbzul7leo4m"
+          "metadataUri": "https://ipfs.io/ipfs/bafkreibcglldkfdekdkxgumlveoe6qv3pbiceypkwtli33clbzul7leo4m",
+          "tokenVariant": "spl-2022"
         }
       ]
     },
