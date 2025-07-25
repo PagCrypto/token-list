@@ -210,6 +210,44 @@
           "coinGeckoId": "usd"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Ripple",
+      "symbol": "XRP",
+      "explorer": "https://xrpscan.com",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
+      "status": false,
+      "assets": [
+        {
+          "id": 14,
+          "symbol": "XRP",
+          "name": "XRP",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
+          "address": "native",
+          "oracleId": "",
+          "decimals": 6,
+          "order": 1,
+          "status": false,
+          "chainName": "Ripple",
+          "coinGeckoId": "xrp",
+          "tokenVariant": "native"
+        },
+        {
+          "id": 15,
+          "symbol": "RLUSD",
+          "name": "Ripple USD",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
+          "address": "rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+          "oracleId": "",
+          "decimals": 6,
+          "order": 2,
+          "status": false,
+          "chainName": "Ripple",
+          "coinGeckoId": "ripple-usd",
+          "tokenVariant": "issued"
+        }
+      ]
     }
   ]
 }
