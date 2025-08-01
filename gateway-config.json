@@ -103,7 +103,7 @@
           "oracleId": "",
           "decimals": 6,
           "order": 4,
-          "status": true,
+          "status": false,
           "chainName": "Solana",
           "coinGeckoId": "pump-fun",
           "metadataUri": "https://ipfs.io/ipfs/bafkreibcglldkfdekdkxgumlveoe6qv3pbiceypkwtli33clbzul7leo4m",
