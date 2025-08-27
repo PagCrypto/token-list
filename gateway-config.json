@@ -74,7 +74,7 @@
           "oracleId": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
           "decimals": 8,
           "order": 5,
-          "status": true,
+          "status": false,
           "chainName": "Solana",
           "coinGeckoId": "ethereum",
           "tokenVariant": "spl"
