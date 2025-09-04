@@ -248,6 +248,28 @@
           "tokenVariant": "issued"
         }
       ]
+    },
+    {
+      "id": 5,
+      "name": "Base",
+      "symbol": "ETH",
+      "explorer": "https://basescan.org",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+      "status": true,
+      "assets": [
+        {
+          "id": 16,
+          "symbol": "ETH",
+          "name": "Ether (Base)",
+          "address": "native",
+          "decimals": 18,
+          "order": 1,
+          "status": true,
+          "chainName": "Base",
+          "tokenVariant": "native"
+        }
+      ]
     }
+
   ]
 }
