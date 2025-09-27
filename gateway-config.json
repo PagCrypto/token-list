@@ -150,6 +150,7 @@
     {
       "id": 3,
       "name": "Ethereum",
+      "evmChainId": 1,
       "symbol": "ETH",
       "explorer": "https://etherscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
@@ -308,7 +309,7 @@
           "decimals": 6,
           "order": 2,
           "chainId": 5,
-          "status": true,
+          "status": false,
           "coinGeckoId": "tether",
           "chainName": "Base"
         },
@@ -336,7 +337,7 @@
           "decimals": 6,
           "order": 4,
           "chainId": 5,
-          "status": true,
+          "status": false,
           "chainName": "Ethereum",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
@@ -347,6 +348,7 @@
     },
     {
       "id": 6,
+      "evmChainId": 999,
       "name": "Hyperliquid EVM",
       "symbol": "HYPE",
       "explorer": "https://app.hyperliquid.xyz",
