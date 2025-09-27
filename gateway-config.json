@@ -323,7 +323,7 @@
           "decimals": 6,
           "order": 3,
           "chainId": 5,
-          "status": true,
+          "status": false,
           "coinGeckoId": "usd",
           "chainName": "Base"
         },
