@@ -66,7 +66,7 @@
           "chainId": 1,
           "status": true,
           "chainName": "Solana",
-          "coinGeckoId": "usd",
+          "coinGeckoId": "usd-coin",
           "tokenVariant": "spl"
         },
         {
@@ -197,7 +197,7 @@
           "chainId": 3,
           "status": false,
           "chainName": "Ethereum",
-          "coinGeckoId": "usd"
+          "coinGeckoId": "usd-coin"
         },
         {
           "id": 12,
@@ -324,7 +324,7 @@
           "order": 3,
           "chainId": 5,
           "status": true,
-          "coinGeckoId": "usd",
+          "coinGeckoId": "usd-coin",
           "chainName": "Base"
         },
         {
@@ -382,7 +382,7 @@
           "chainId": 6,
           "status": false,
           "chainName": "Hyperliquid",
-          "coinGeckoId": "usd",
+          "coinGeckoId": "usd-coin",
           "tokenVariant": "erc20"
         }
       ],
@@ -438,7 +438,7 @@
           "chainId": 7,
           "status": false,
           "chainName": "TRON",
-          "coinGeckoId": "usd",
+          "coinGeckoId": "usd-coin",
           "tokenVariant": "trc20"
         }
       ],
