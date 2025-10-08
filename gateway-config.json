@@ -239,7 +239,7 @@
       "symbol": "XRP",
       "explorer": "https://xrpscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
-      "status": false,
+      "status": true,
       "assets": [
         {
           "id": 14,
@@ -251,7 +251,7 @@
           "decimals": 6,
           "order": 1,
           "chainId": 4,
-          "status": false,
+          "status": true,
           "chainName": "Ripple",
           "coinGeckoId": "ripple",
           "tokenVariant": "native"
@@ -266,7 +266,7 @@
           "decimals": 6,
           "order": 2,
           "chainId": 4,
-          "status": false,
+          "status": true,
           "chainName": "Ripple",
           "coinGeckoId": "ripple-usd",
           "tokenVariant": "issued"
