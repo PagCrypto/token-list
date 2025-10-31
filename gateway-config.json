@@ -395,7 +395,7 @@
       "symbol": "TRX",
       "explorer": "https://tronscan.org/#/",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png",
-      "status": false,
+      "status": true,
       "assets": [
         {
           "id": 22,
@@ -407,7 +407,7 @@
           "decimals": 6,
           "order": 1,
           "chainId": 7,
-          "status": false,
+          "status": true,
           "chainName": "TRON",
           "coinGeckoId": "tron",
           "tokenVariant": "native"
