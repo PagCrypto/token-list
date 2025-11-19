@@ -113,7 +113,7 @@
           "status": true,
           "chainName": "Solana",
           "coinGeckoId": "usds",
-          "tokenVariant": "spl"
+          "tokenVariant": "spl-2022"
         }
       ],
       "key": "solana",
