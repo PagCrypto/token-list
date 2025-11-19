@@ -323,7 +323,7 @@
           "decimals": 6,
           "order": 2,
           "chainId": 5,
-          "status": false,
+          "status": true,
           "coinGeckoId": "tether",
           "chainName": "Base"
         },
