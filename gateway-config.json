@@ -736,7 +736,7 @@
           "order": 1,
           "chainId": 10,
           "status": false,
-          "chainName": "BNB",
+          "chainName": "BNB Smart Chain",
           "coinGeckoId": "binancecoin",
           "tokenVariant": "native"
         },
@@ -752,7 +752,7 @@
           "chainId": 10,
           "status": false,
           "coinGeckoId": "tether",
-          "chainName": "BNB",
+          "chainName": "BNB Smart Chain",
           "tokenVariant": "erc20"
         },
         {
@@ -767,7 +767,7 @@
           "chainId": 10,
           "status": false,
           "coinGeckoId": "usd-coin",
-          "chainName": "BNB",
+          "chainName": "BNB Smart Chain",
           "tokenVariant": "erc20"
         },
         {
@@ -781,7 +781,7 @@
           "order": 5,
           "chainId": 10,
           "status": false,
-          "chainName": "BNB",
+          "chainName": "BNB Smart Chain",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
         }
