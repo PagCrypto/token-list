@@ -480,6 +480,22 @@
           "chainName": "Base",
           "coinGeckoId": "euro-coin",
           "tokenVariant": "erc20"
+        },
+        {
+          "id": 46,
+          "symbol": "LINK",
+          "name": "Chainlink",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
+          "address": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
+          "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
+          "decimals": 6,
+          "order": 6,
+          "chainId": 5,
+          "status": true,
+          "chainName": "Base",
+          "coinGeckoId": "chainlink",
+          "metadataUri": "",
+          "tokenVariant": "erc20"
         }
       ],
       "key": "base",
@@ -539,6 +555,22 @@
           "status": true,
           "coinGeckoId": "usd-coin",
           "chainName": "Polygon",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 47,
+          "symbol": "LINK",
+          "name": "Chainlink",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
+          "address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+          "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
+          "decimals": 6,
+          "order": 6,
+          "chainId": 8,
+          "status": true,
+          "chainName": "Polygon",
+          "coinGeckoId": "chainlink",
+          "metadataUri": "",
           "tokenVariant": "erc20"
         }
       ]
@@ -684,6 +716,22 @@
           "chainName": "Arbitrum",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
+        },
+        {
+          "id": 48,
+          "symbol": "LINK",
+          "name": "Chainlink",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
+          "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
+          "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
+          "decimals": 6,
+          "order": 6,
+          "chainId": 9,
+          "status": false,
+          "chainName": "Arbitrum",
+          "coinGeckoId": "chainlink",
+          "metadataUri": "",
+          "tokenVariant": "erc20"
         }
       ]
     },
@@ -757,6 +805,22 @@
           "chainName": "BNB",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
+        },
+        {
+          "id": 49,
+          "symbol": "LINK",
+          "name": "Chainlink",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
+          "address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
+          "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
+          "decimals": 6,
+          "order": 6,
+          "chainId": 10,
+          "status": false,
+          "chainName": "BNB",
+          "coinGeckoId": "chainlink",
+          "metadataUri": "",
+          "tokenVariant": "erc20"
         }
       ]
     },
@@ -797,6 +861,22 @@
           "status": false,
           "chainName": "Hyperliquid",
           "coinGeckoId": "usd-coin",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 50,
+          "symbol": "LINK",
+          "name": "Chainlink",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
+          "address": "0x1AC2EE68b8d038C982C1E1f73F596927dd70De59",
+          "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
+          "decimals": 6,
+          "order": 6,
+          "chainId": 6,
+          "status": false,
+          "chainName": "Hyperliquid",
+          "coinGeckoId": "chainlink",
+          "metadataUri": "",
           "tokenVariant": "erc20"
         }
       ],
