@@ -363,6 +363,21 @@
           "chainName": "Ripple",
           "coinGeckoId": "ripple-usd",
           "tokenVariant": "issued"
+        },
+        {
+          "id": 45,
+          "symbol": "USDC",
+          "name": "USDC",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+          "address": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+          "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+          "decimals": 6,
+          "order": 3,
+          "chainId": 10,
+          "status": false,
+          "chainName": "Ripple",
+          "coinGeckoId": "usd-coin",
+          "tokenVariant": "issued"
         }
       ],
       "key": "ripple",
@@ -437,7 +452,7 @@
           "tokenVariant": "erc20"
         },
         {
-          "id": 26,
+          "id": 20,
           "symbol": "USDS",
           "name": "USDS",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/33039.png",
@@ -452,7 +467,7 @@
           "tokenVariant": "erc20"
         },
         {
-          "id": 31,
+          "id": 21,
           "symbol": "EURC",
           "name": "EURC",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/20641.png",
@@ -472,46 +487,61 @@
     },
     {
       "id": 6,
-      "evmChainId": 999,
-      "name": "Hyperliquid EVM",
-      "symbol": "HYPE",
-      "explorer": "https://app.hyperliquid.xyz",
-      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
-      "status": false,
+      "evmChainId": 137,
+      "name": "Polygon",
+      "symbol": "POL",
+      "key": "polygon",
+      "family": "evm",
+      "explorer": "https://polygonscan.com",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
+      "status": true,
       "assets": [
         {
-          "id": 20,
-          "symbol": "Hyperliquid EVM",
-          "name": "Hyperliquid",
-          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
-          "address": "0x0d01dc56dcaaca66ad901c959b4011ec",
-          "oracleId": "0x4279e31cc369bbcc2faf022b382b080e32a8e689ff20fbc530d2a603eb6cd98b",
+          "id": 31,
+          "symbol": "POL",
+          "name": "Polygon",
+          "address": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/28321.png",
+          "oracleId": "0xffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
           "decimals": 18,
           "order": 1,
-          "chainId": 6,
-          "status": false,
-          "chainName": "Hyperliquid",
-          "coinGeckoId": "hyperliquid",
+          "chainId": 8,
+          "status": true,
+          "chainName": "Polygon",
+          "coinGeckoId": "polygon-ecosystem-token",
           "tokenVariant": "erc20"
         },
         {
-          "id": 21,
+          "id": 26,
+          "symbol": "USDT",
+          "name": "Tether",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+          "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+          "oracleId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+          "decimals": 6,
+          "order": 2,
+          "chainId": 8,
+          "status": true,
+          "coinGeckoId": "tether",
+          "chainName": "Polygon",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 33,
           "symbol": "USDC",
           "name": "USDC",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
-          "address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+          "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
           "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 6,
-          "order": 2,
-          "chainId": 6,
-          "status": false,
-          "chainName": "Hyperliquid",
+          "order": 3,
+          "chainId": 8,
+          "status": true,
           "coinGeckoId": "usd-coin",
+          "chainName": "Polygon",
           "tokenVariant": "erc20"
         }
-      ],
-      "key": "hyper",
-      "family": "evm"
+      ]
     },
     {
       "id": 7,
@@ -571,63 +601,6 @@
     },
     {
       "id": 8,
-      "evmChainId": 137,
-      "name": "Polygon",
-      "symbol": "POL",
-      "key": "polygon",
-      "family": "evm",
-      "explorer": "https://polygonscan.com",
-      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
-      "status": false,
-      "assets": [
-        {
-          "id": 31,
-          "symbol": "POL",
-          "name": "Polygon",
-          "address": "0x0000000000000000000000000000000000001010",
-          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
-          "oracleId": "0xffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
-          "decimals": 18,
-          "order": 1,
-          "chainId": 8,
-          "status": false,
-          "chainName": "Polygon",
-          "coinGeckoId": "polygon-ecosystem-token",
-          "tokenVariant": "native"
-        },
-        {
-          "id": 32,
-          "symbol": "USDT",
-          "name": "Tether",
-          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
-          "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
-          "oracleId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
-          "decimals": 6,
-          "order": 2,
-          "chainId": 8,
-          "status": false,
-          "coinGeckoId": "tether",
-          "chainName": "Polygon"
-        },
-        {
-          "id": 33,
-          "symbol": "USDC",
-          "name": "USDC",
-          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
-          "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
-          "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
-          "decimals": 6,
-          "order": 3,
-          "chainId": 8,
-          "status": false,
-          "coinGeckoId": "usd-coin",
-          "chainName": "Polygon",
-          "tokenVariant": "erc20"
-        }
-      ]
-    },
-    {
-      "id": 9,
       "evmChainId": 42161,
       "name": "Arbitrum",
       "symbol": "ARB",
@@ -653,7 +626,7 @@
           "tokenVariant": "erc20"
         },
         {
-          "id": 34,
+          "id": 44,
           "symbol": "USDT",
           "name": "Tether",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
@@ -715,9 +688,9 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "evmChainId": 56,
-      "name": "BNB Smart Chain",
+      "name": "BNB",
       "symbol": "BNB",
       "key": "bnb",
       "family": "evm",
@@ -729,16 +702,16 @@
           "id": 38,
           "symbol": "BNB",
           "name": "BNB",
-          "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+          "address": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
           "oracleId": "0x2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
           "decimals": 18,
           "order": 1,
           "chainId": 10,
           "status": false,
-          "chainName": "BNB Smart Chain",
+          "chainName": "BNB",
           "coinGeckoId": "binancecoin",
-          "tokenVariant": "native"
+          "tokenVariant": "erc20"
         },
         {
           "id": 39,
@@ -752,7 +725,7 @@
           "chainId": 10,
           "status": false,
           "coinGeckoId": "tether",
-          "chainName": "BNB Smart Chain",
+          "chainName": "BNB",
           "tokenVariant": "erc20"
         },
         {
@@ -766,8 +739,8 @@
           "order": 3,
           "chainId": 10,
           "status": false,
+          "chainName": "BNB",
           "coinGeckoId": "usd-coin",
-          "chainName": "BNB Smart Chain",
           "tokenVariant": "erc20"
         },
         {
@@ -781,11 +754,54 @@
           "order": 5,
           "chainId": 10,
           "status": false,
-          "chainName": "BNB Smart Chain",
+          "chainName": "BNB",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
         }
       ]
+    },
+    {
+      "id": 10,
+      "evmChainId": 999,
+      "name": "Hyperliquid EVM",
+      "symbol": "HYPE",
+      "explorer": "https://app.hyperliquid.xyz",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
+      "status": false,
+      "assets": [
+        {
+          "id": 42,
+          "symbol": "Hyperliquid EVM",
+          "name": "Hyperliquid",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
+          "address": "0x0d01dc56dcaaca66ad901c959b4011ec",
+          "oracleId": "0x4279e31cc369bbcc2faf022b382b080e32a8e689ff20fbc530d2a603eb6cd98b",
+          "decimals": 18,
+          "order": 1,
+          "chainId": 6,
+          "status": false,
+          "chainName": "Hyperliquid",
+          "coinGeckoId": "hyperliquid",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 43,
+          "symbol": "USDC",
+          "name": "USDC",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+          "address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f",
+          "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+          "decimals": 6,
+          "order": 2,
+          "chainId": 6,
+          "status": false,
+          "chainName": "Hyperliquid",
+          "coinGeckoId": "usd-coin",
+          "tokenVariant": "erc20"
+        }
+      ],
+      "key": "hyper",
+      "family": "evm"
     }
   ],
   "version": "1"
