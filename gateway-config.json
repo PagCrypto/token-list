@@ -500,7 +500,7 @@
           "id": 31,
           "symbol": "POL",
           "name": "Polygon",
-          "address": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+          "address": "native",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/28321.png",
           "oracleId": "0xffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
           "decimals": 18,
@@ -509,7 +509,7 @@
           "status": true,
           "chainName": "Polygon",
           "coinGeckoId": "polygon-ecosystem-token",
-          "tokenVariant": "erc20"
+          "tokenVariant": "native"
         },
         {
           "id": 26,
