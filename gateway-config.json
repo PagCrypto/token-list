@@ -162,22 +162,6 @@
           "coinGeckoId": "jupiter-exchange-solana",
           "metadataUri": "https://static.jup.ag/jup/metadata.json",
           "tokenVariant": "spl"
-        },
-        {
-          "id": 30,
-          "symbol": "UNI",
-          "name": "Uniswap (Wormhole)",
-          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
-          "address": "8FU95xFJhUUkyyCLU13HSzDLs7oC4QZdXQHL6SCeab36",
-          "oracleId": "0x78d185a741d07edb3412b09008b7c5cfb9bbbd7d568bf00ba737b456ba171501",
-          "decimals": 6,
-          "order": 8,
-          "chainId": 1,
-          "status": true,
-          "chainName": "Solana",
-          "coinGeckoId": "uniswap",
-          "metadataUri": "https://static.jup.ag/jup/metadata.json",
-          "tokenVariant": "spl"
         }
       ],
       "key": "solana",
