@@ -165,7 +165,8 @@
         }
       ],
       "key": "solana",
-      "family": "solana"
+      "family": "solana",
+      "order": 2
     },
     {
       "id": 2,
@@ -192,7 +193,8 @@
         }
       ],
       "key": "bitcoin",
-      "family": "bitcoin"
+      "family": "bitcoin",
+      "order": 1
     },
     {
       "id": 3,
@@ -308,7 +310,8 @@
         }
       ],
       "key": "eth",
-      "family": "evm"
+      "family": "evm",
+      "order": 3
     },
     {
       "id": 4,
@@ -365,7 +368,8 @@
         }
       ],
       "key": "ripple",
-      "family": "xrpl"
+      "family": "xrpl",
+      "order": 9
     },
     {
       "id": 5,
@@ -483,7 +487,8 @@
         }
       ],
       "key": "base",
-      "family": "evm"
+      "family": "evm",
+      "order": 4
     },
     {
       "id": 6,
@@ -557,7 +562,8 @@
           "metadataUri": "",
           "tokenVariant": "erc20"
         }
-      ]
+      ],
+      "order": 5
     },
     {
       "id": 7,
@@ -613,7 +619,8 @@
         }
       ],
       "key": "tron",
-      "family": "tron"
+      "family": "tron",
+      "order": 10
     },
     {
       "id": 8,
@@ -717,7 +724,8 @@
           "metadataUri": "",
           "tokenVariant": "erc20"
         }
-      ]
+      ],
+      "order": 6
     },
     {
       "id": 9,
@@ -806,7 +814,8 @@
           "metadataUri": "",
           "tokenVariant": "erc20"
         }
-      ]
+      ],
+      "order": 7
     },
     {
       "id": 10,
@@ -865,7 +874,8 @@
         }
       ],
       "key": "hyper",
-      "family": "evm"
+      "family": "evm",
+      "order": 8
     }
   ],
   "version": "1"
