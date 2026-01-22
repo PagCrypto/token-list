@@ -162,6 +162,28 @@
           "coinGeckoId": "jupiter-exchange-solana",
           "metadataUri": "https://static.jup.ag/jup/metadata.json",
           "tokenVariant": "spl"
+        },
+        {
+          "id": 51,
+          "symbol": "SKR",
+          "name": "Seeker",
+          "icon": "https://gateway.irys.xyz/uP1dFvCofZQT26m3SKOCttXrir3ORBR1B8wPhP6tv7M?ext=png",
+          "address": "SKRbvo6Gf7GondiT3BbTfuRDPqLWei4j2Qy2NPGZhW3",
+          "decimals": 9,
+          "order": 12,
+          "chainId": 1,
+          "status": true,
+          "chainName": "Solana",
+          "coinGeckoId": "seeker",
+          "tokenVariant": "spl",
+          "metadata": {
+            "name": "Seeker",
+            "symbol": "SKR",
+            "description": "The Native Asset of the Solana Mobile Ecosystem",
+            "image": "https://gateway.irys.xyz/uP1dFvCofZQT26m3SKOCttXrir3ORBR1B8wPhP6tv7M?ext=png",
+            "external_url": "https://www.solanamobile.com/skr",
+            "twitter": "https://x.com/solanamobile"
+          }
         }
       ],
       "key": "solana",
