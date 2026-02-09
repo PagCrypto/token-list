@@ -26,21 +26,6 @@
         },
         {
           "id": 2,
-          "symbol": "TRUMP",
-          "name": "OFFICIAL TRUMP",
-          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/35336.png",
-          "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
-          "oracleId": "0x879551021853eec7a7dc827578e8e69da7e4fa8148339aa0d3d5296405be4b1a",
-          "decimals": 6,
-          "order": 11,
-          "chainId": 1,
-          "status": false,
-          "chainName": "Solana",
-          "coinGeckoId": "official-trump",
-          "tokenVariant": "spl"
-        },
-        {
-          "id": 3,
           "symbol": "USDT",
           "name": "Tether",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
@@ -55,7 +40,7 @@
           "tokenVariant": "spl"
         },
         {
-          "id": 4,
+          "id": 3,
           "symbol": "USDC",
           "name": "USD Coin",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
@@ -70,7 +55,7 @@
           "tokenVariant": "spl"
         },
         {
-          "id": 5,
+          "id": 6,
           "symbol": "WETH",
           "name": "Wrapped Ethereum",
           "icon": "https://statics.solscan.io/cdn/imgs/s60?ref=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f736f6c616e612d6c6162732f746f6b656e2d6c6973742f6d61696e2f6173736574732f6d61696e6e65742f37766643585455587835574a56354a41446b313744554a346b736761753775744e4b6a3462393633766f78732f6c6f676f2e706e67",
@@ -85,7 +70,7 @@
           "tokenVariant": "spl"
         },
         {
-          "id": 6,
+          "id": 4,
           "symbol": "PYUSD",
           "name": "PayPal USD",
           "icon": "https://statics.solscan.io/cdn/imgs/s60?ref=68747470733a2f2f3432343536352e6673312e68756273706f7475736572636f6e74656e742d6e61312e6e65742f68756266732f3432343536352f50595553444c4f474f2e706e67",
@@ -101,7 +86,7 @@
           "tokenVariant": "spl"
         },
         {
-          "id": 7,
+          "id": 5,
           "symbol": "USDS",
           "name": "USDS",
           "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/33039.png",
