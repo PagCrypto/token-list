@@ -169,6 +169,21 @@
             "external_url": "https://www.solanamobile.com/skr",
             "twitter": "https://x.com/solanamobile"
           }
+        },
+        {
+          "id": 62,
+          "symbol": "MON",
+          "name": "Monad",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32684.png",
+          "address": "CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2",
+          "oracleId": "0x31491744e2dbf6df7fcf4ac0820d18a609b49076d45066d3568424e62f686cd1",
+          "decimals": 18,
+          "order": 10,
+          "chainId": 1,
+          "status": true,
+          "chainName": "Solana",
+          "coinGeckoId": "monad",
+          "tokenVariant": "spl"
         }
       ],
       "key": "solana",
@@ -211,6 +226,9 @@
       "explorer": "https://etherscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
       "status": false,
+      "key": "eth",
+      "family": "evm",
+      "order": 3,
       "assets": [
         {
           "id": 9,
@@ -315,10 +333,7 @@
           "coinGeckoId": "euro-coin",
           "tokenVariant": "erc20"
         }
-      ],
-      "key": "eth",
-      "family": "evm",
-      "order": 3
+      ]
     },
     {
       "id": 4,
@@ -367,7 +382,7 @@
           "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 6,
           "order": 3,
-          "chainId": 10,
+          "chainId": 4,
           "status": false,
           "chainName": "Ripple",
           "coinGeckoId": "usd-coin",
@@ -376,7 +391,7 @@
       ],
       "key": "ripple",
       "family": "xrpl",
-      "order": 9
+      "order": 4
     },
     {
       "id": 5,
@@ -386,6 +401,9 @@
       "explorer": "https://basescan.org",
       "icon": "https://avatars.githubusercontent.com/u/108554348?s=200&v=4",
       "status": true,
+      "key": "base",
+      "family": "evm",
+      "order": 5,
       "assets": [
         {
           "id": 16,
@@ -400,7 +418,8 @@
           "status": true,
           "chainName": "Base",
           "coinGeckoId": "ethereum",
-          "tokenVariant": "native"
+          "tokenVariant": "native",
+          "fixedRate": 1
         },
         {
           "id": 17,
@@ -454,7 +473,7 @@
           "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
           "oracleId": "0x77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1",
           "decimals": 6,
-          "order": 4,
+          "order": 5,
           "chainId": 5,
           "status": true,
           "chainName": "Base",
@@ -469,7 +488,7 @@
           "address": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
           "oracleId": "0x76fa85158bf14ede77087fe3ae472f66213f6ea2f5b411cb2de472794990fa5c",
           "decimals": 6,
-          "order": 5,
+          "order": 6,
           "chainId": 5,
           "status": true,
           "chainName": "Base",
@@ -484,7 +503,7 @@
           "address": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
           "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
           "decimals": 6,
-          "order": 6,
+          "order": 7,
           "chainId": 5,
           "status": true,
           "chainName": "Base",
@@ -492,10 +511,7 @@
           "metadataUri": "",
           "tokenVariant": "erc20"
         }
-      ],
-      "key": "base",
-      "family": "evm",
-      "order": 4
+      ]
     },
     {
       "id": 6,
@@ -507,6 +523,7 @@
       "explorer": "https://polygonscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
       "status": true,
+      "order": 8,
       "assets": [
         {
           "id": 31,
@@ -517,7 +534,7 @@
           "oracleId": "0xffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472",
           "decimals": 18,
           "order": 1,
-          "chainId": 8,
+          "chainId": 6,
           "status": true,
           "chainName": "Polygon",
           "coinGeckoId": "polygon-ecosystem-token",
@@ -532,7 +549,7 @@
           "oracleId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
           "decimals": 6,
           "order": 2,
-          "chainId": 8,
+          "chainId": 6,
           "status": true,
           "coinGeckoId": "tether",
           "chainName": "Polygon",
@@ -547,7 +564,7 @@
           "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 6,
           "order": 3,
-          "chainId": 8,
+          "chainId": 6,
           "status": true,
           "coinGeckoId": "usd-coin",
           "chainName": "Polygon",
@@ -561,16 +578,15 @@
           "address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
           "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
           "decimals": 6,
-          "order": 6,
-          "chainId": 8,
+          "order": 4,
+          "chainId": 6,
           "status": true,
           "chainName": "Polygon",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
           "tokenVariant": "erc20"
         }
-      ],
-      "order": 5
+      ]
     },
     {
       "id": 7,
@@ -579,6 +595,9 @@
       "explorer": "https://tronscan.org/#/",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png",
       "status": true,
+      "key": "tron",
+      "family": "tron",
+      "order": 11,
       "assets": [
         {
           "id": 22,
@@ -624,10 +643,7 @@
           "coinGeckoId": "usd-coin",
           "tokenVariant": "trc20"
         }
-      ],
-      "key": "tron",
-      "family": "tron",
-      "order": 10
+      ]
     },
     {
       "id": 8,
@@ -639,6 +655,7 @@
       "explorer": "https://arbiscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11841.png",
       "status": false,
+      "order": 6,
       "assets": [
         {
           "id": 34,
@@ -649,7 +666,7 @@
           "oracleId": "0x3fa4252848f9f0a1480be62745a4629d9eb1322aebab8a791e344b3b9c1adcf5",
           "decimals": 18,
           "order": 1,
-          "chainId": 9,
+          "chainId": 8,
           "status": false,
           "chainName": "Arbitrum",
           "coinGeckoId": "arbitrum",
@@ -664,7 +681,7 @@
           "oracleId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
           "decimals": 18,
           "order": 2,
-          "chainId": 9,
+          "chainId": 8,
           "status": false,
           "coinGeckoId": "tether",
           "chainName": "Arbitrum",
@@ -679,7 +696,7 @@
           "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 18,
           "order": 3,
-          "chainId": 9,
+          "chainId": 8,
           "status": false,
           "coinGeckoId": "usd-coin",
           "chainName": "Arbitrum",
@@ -694,7 +711,7 @@
           "oracleId": "0x77f0971af11cc8bac224917275c1bf55f2319ed5c654a1ca955c82fa2d297ea1",
           "decimals": 18,
           "order": 4,
-          "chainId": 9,
+          "chainId": 8,
           "status": false,
           "chainName": "Arbitrum",
           "coinGeckoId": "usds",
@@ -709,7 +726,7 @@
           "oracleId": "0x6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d",
           "decimals": 18,
           "order": 5,
-          "chainId": 9,
+          "chainId": 8,
           "status": false,
           "chainName": "Arbitrum",
           "coinGeckoId": "ethena-usde",
@@ -724,26 +741,26 @@
           "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
           "decimals": 6,
           "order": 6,
-          "chainId": 9,
+          "chainId": 8,
           "status": false,
           "chainName": "Arbitrum",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
           "tokenVariant": "erc20"
         }
-      ],
-      "order": 6
+      ]
     },
     {
       "id": 9,
       "evmChainId": 56,
       "name": "BNB",
       "symbol": "BNB",
-      "key": "bnb",
+      "key": "bsc",
       "family": "evm",
       "explorer": "https://bscscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
       "status": false,
+      "order": 7,
       "assets": [
         {
           "id": 38,
@@ -754,7 +771,7 @@
           "oracleId": "0x2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
           "decimals": 18,
           "order": 1,
-          "chainId": 10,
+          "chainId": 9,
           "status": false,
           "chainName": "BNB",
           "coinGeckoId": "binancecoin",
@@ -769,7 +786,7 @@
           "oracleId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
           "decimals": 18,
           "order": 2,
-          "chainId": 10,
+          "chainId": 9,
           "status": false,
           "coinGeckoId": "tether",
           "chainName": "BNB",
@@ -784,7 +801,7 @@
           "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 18,
           "order": 3,
-          "chainId": 10,
+          "chainId": 9,
           "status": false,
           "chainName": "BNB",
           "coinGeckoId": "usd-coin",
@@ -798,8 +815,8 @@
           "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
           "oracleId": "0x6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d",
           "decimals": 18,
-          "order": 5,
-          "chainId": 10,
+          "order": 4,
+          "chainId": 9,
           "status": false,
           "chainName": "BNB",
           "coinGeckoId": "ethena-usde",
@@ -813,16 +830,15 @@
           "address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
           "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
           "decimals": 6,
-          "order": 6,
-          "chainId": 10,
+          "order": 5,
+          "chainId": 9,
           "status": false,
           "chainName": "BNB",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
           "tokenVariant": "erc20"
         }
-      ],
-      "order": 7
+      ]
     },
     {
       "id": 10,
@@ -832,6 +848,9 @@
       "explorer": "https://app.hyperliquid.xyz",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
       "status": false,
+      "key": "hyper",
+      "family": "evm",
+      "order": 12,
       "assets": [
         {
           "id": 42,
@@ -842,7 +861,7 @@
           "oracleId": "0x4279e31cc369bbcc2faf022b382b080e32a8e689ff20fbc530d2a603eb6cd98b",
           "decimals": 18,
           "order": 1,
-          "chainId": 6,
+          "chainId": 10,
           "status": false,
           "chainName": "Hyperliquid",
           "coinGeckoId": "hyperliquid",
@@ -857,7 +876,7 @@
           "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 6,
           "order": 2,
-          "chainId": 6,
+          "chainId": 10,
           "status": false,
           "chainName": "Hyperliquid",
           "coinGeckoId": "usd-coin",
@@ -871,18 +890,178 @@
           "address": "0x1AC2EE68b8d038C982C1E1f73F596927dd70De59",
           "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
           "decimals": 6,
-          "order": 6,
-          "chainId": 6,
+          "order": 3,
+          "chainId": 10,
           "status": false,
           "chainName": "Hyperliquid",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
           "tokenVariant": "erc20"
         }
-      ],
-      "key": "hyper",
+      ]
+    },
+    {
+      "id": 11,
+      "evmChainId": 10,
+      "name": "Optimism",
+      "symbol": "OP",
+      "key": "optimism",
       "family": "evm",
-      "order": 8
+      "explorer": "https://optimistic.etherscan.io",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png",
+      "status": false,
+      "assets": [
+        {
+          "id": 52,
+          "symbol": "ETH",
+          "name": "Ethereum (Optimism)",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+          "address": "native",
+          "oracleId": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+          "decimals": 18,
+          "order": 1,
+          "chainId": 11,
+          "status": false,
+          "chainName": "Optimism",
+          "coinGeckoId": "ethereum",
+          "tokenVariant": "native"
+        },
+        {
+          "id": 53,
+          "symbol": "OP",
+          "name": "Optimism",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png",
+          "address": "0x4200000000000000000000000000000000000042",
+          "oracleId": "0x385f64d993f7b77d8182ed5003d97c60aa3361f3cecfe711544d2d59165e9bdf",
+          "decimals": 18,
+          "order": 2,
+          "chainId": 11,
+          "status": false,
+          "chainName": "Optimism",
+          "coinGeckoId": "optimism",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 54,
+          "symbol": "USDC",
+          "name": "USDC",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+          "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+          "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+          "decimals": 6,
+          "order": 3,
+          "chainId": 11,
+          "status": false,
+          "chainName": "Optimism",
+          "coinGeckoId": "usd-coin",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 55,
+          "symbol": "USDT",
+          "name": "Tether",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+          "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+          "oracleId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+          "decimals": 6,
+          "order": 4,
+          "chainId": 11,
+          "status": false,
+          "chainName": "Optimism",
+          "coinGeckoId": "tether",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 56,
+          "symbol": "USDe",
+          "name": "Ethena USDe",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/29470.png",
+          "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+          "oracleId": "0x6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d",
+          "decimals": 18,
+          "order": 5,
+          "chainId": 11,
+          "status": false,
+          "chainName": "Optimism",
+          "coinGeckoId": "ethena-usde",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 57,
+          "symbol": "LINK",
+          "name": "Chainlink",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
+          "address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+          "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
+          "decimals": 18,
+          "order": 6,
+          "chainId": 11,
+          "status": false,
+          "chainName": "Optimism",
+          "coinGeckoId": "chainlink",
+          "tokenVariant": "erc20"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "id": 12,
+      "evmChainId": 143,
+      "name": "Monad",
+      "symbol": "MON",
+      "key": "monad",
+      "family": "evm",
+      "explorer": "https://monadexplorer.com",
+      "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/30495.png",
+      "status": false,
+      "assets": [
+        {
+          "id": 58,
+          "symbol": "MON",
+          "name": "Monad",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32684.png",
+          "address": "native",
+          "oracleId": "0x31491744e2dbf6df7fcf4ac0820d18a609b49076d45066d3568424e62f686cd1",
+          "decimals": 18,
+          "order": 1,
+          "chainId": 12,
+          "status": false,
+          "chainName": "Monad",
+          "coinGeckoId": "monad",
+          "tokenVariant": "native"
+        },
+        {
+          "id": 59,
+          "symbol": "USDC",
+          "name": "USDC",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
+          "address": "0x754704bc059f8c67012fed69bc8a327a5aafb603",
+          "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+          "decimals": 6,
+          "order": 2,
+          "chainId": 12,
+          "status": false,
+          "chainName": "Monad",
+          "coinGeckoId": "usd-coin",
+          "tokenVariant": "erc20"
+        },
+        {
+          "id": 60,
+          "symbol": "LINK",
+          "name": "Chainlink",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
+          "address": "0x76f257B1DDA5cC71bee4eF637Fbdde4C801310A9",
+          "oracleId": "0x8ac0c70fff57e9aefdf5edf44b51d62c2d433653cbb2cf5cc06bb115af04d221",
+          "decimals": 18,
+          "order": 3,
+          "chainId": 12,
+          "status": false,
+          "chainName": "Monad",
+          "coinGeckoId": "chainlink",
+          "tokenVariant": "erc20"
+        }
+      ],
+      "order": 10
     }
   ],
   "version": "1"
