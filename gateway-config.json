@@ -1013,19 +1013,19 @@
       "family": "evm",
       "explorer": "https://monadexplorer.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/30495.png",
-      "status": false,
+      "status": true,
       "assets": [
         {
           "id": 58,
           "symbol": "MON",
           "name": "Monad",
-          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32684.png",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/30495.png",
           "address": "native",
           "oracleId": "0x31491744e2dbf6df7fcf4ac0820d18a609b49076d45066d3568424e62f686cd1",
           "decimals": 18,
           "order": 1,
           "chainId": 12,
-          "status": false,
+          "status": true,
           "chainName": "Monad",
           "coinGeckoId": "monad",
           "tokenVariant": "native"
@@ -1040,7 +1040,7 @@
           "decimals": 6,
           "order": 2,
           "chainId": 12,
-          "status": false,
+          "status": true,
           "chainName": "Monad",
           "coinGeckoId": "usd-coin",
           "tokenVariant": "erc20"
@@ -1055,7 +1055,7 @@
           "decimals": 18,
           "order": 3,
           "chainId": 12,
-          "status": false,
+          "status": true,
           "chainName": "Monad",
           "coinGeckoId": "chainlink",
           "tokenVariant": "erc20"
