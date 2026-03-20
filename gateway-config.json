@@ -418,8 +418,7 @@
           "status": true,
           "chainName": "Base",
           "coinGeckoId": "ethereum",
-          "tokenVariant": "native",
-          "fixedRate": 1
+          "tokenVariant": "native"
         },
         {
           "id": 17,
@@ -448,7 +447,8 @@
           "status": true,
           "coinGeckoId": "usd-coin",
           "chainName": "Base",
-          "tokenVariant": "erc20"
+          "tokenVariant": "erc20",
+          "fixedRate": 1
         },
         {
           "id": 19,
