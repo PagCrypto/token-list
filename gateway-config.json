@@ -759,7 +759,7 @@
       "family": "evm",
       "explorer": "https://bscscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
-      "status": false,
+      "status": true,
       "order": 7,
       "assets": [
         {
@@ -772,7 +772,7 @@
           "decimals": 18,
           "order": 1,
           "chainId": 9,
-          "status": false,
+          "status": true,
           "chainName": "BNB",
           "coinGeckoId": "binancecoin",
           "tokenVariant": "erc20"
@@ -787,7 +787,7 @@
           "decimals": 18,
           "order": 2,
           "chainId": 9,
-          "status": false,
+          "status": true,
           "coinGeckoId": "tether",
           "chainName": "BNB",
           "tokenVariant": "erc20"
@@ -802,7 +802,7 @@
           "decimals": 18,
           "order": 3,
           "chainId": 9,
-          "status": false,
+          "status": true,
           "chainName": "BNB",
           "coinGeckoId": "usd-coin",
           "tokenVariant": "erc20"
@@ -817,7 +817,7 @@
           "decimals": 18,
           "order": 4,
           "chainId": 9,
-          "status": false,
+          "status": true,
           "chainName": "BNB",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
@@ -832,7 +832,7 @@
           "decimals": 6,
           "order": 5,
           "chainId": 9,
-          "status": false,
+          "status": true,
           "chainName": "BNB",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
@@ -847,7 +847,7 @@
       "symbol": "HYPE",
       "explorer": "https://app.hyperliquid.xyz",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
-      "status": false,
+      "status": true,
       "key": "hype",
       "family": "evm",
       "order": 12,
@@ -862,7 +862,7 @@
           "decimals": 18,
           "order": 1,
           "chainId": 10,
-          "status": false,
+          "status": true,
           "chainName": "Hyperliquid",
           "coinGeckoId": "hyperliquid",
           "tokenVariant": "erc20"
@@ -877,7 +877,7 @@
           "decimals": 6,
           "order": 2,
           "chainId": 10,
-          "status": false,
+          "status": true,
           "chainName": "Hyperliquid",
           "coinGeckoId": "usd-coin",
           "tokenVariant": "erc20"
@@ -892,7 +892,7 @@
           "decimals": 6,
           "order": 3,
           "chainId": 10,
-          "status": false,
+          "status": true,
           "chainName": "Hyperliquid",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
@@ -909,7 +909,7 @@
       "family": "evm",
       "explorer": "https://optimistic.etherscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png",
-      "status": false,
+      "status": true,
       "assets": [
         {
           "id": 52,
@@ -921,7 +921,7 @@
           "decimals": 18,
           "order": 1,
           "chainId": 11,
-          "status": false,
+          "status": true,
           "chainName": "Optimism",
           "coinGeckoId": "ethereum",
           "tokenVariant": "native"
@@ -936,7 +936,7 @@
           "decimals": 18,
           "order": 2,
           "chainId": 11,
-          "status": false,
+          "status": true,
           "chainName": "Optimism",
           "coinGeckoId": "optimism",
           "tokenVariant": "erc20"
@@ -951,7 +951,7 @@
           "decimals": 6,
           "order": 3,
           "chainId": 11,
-          "status": false,
+          "status": true,
           "chainName": "Optimism",
           "coinGeckoId": "usd-coin",
           "tokenVariant": "erc20"
@@ -966,7 +966,7 @@
           "decimals": 6,
           "order": 4,
           "chainId": 11,
-          "status": false,
+          "status": true,
           "chainName": "Optimism",
           "coinGeckoId": "tether",
           "tokenVariant": "erc20"
@@ -981,7 +981,7 @@
           "decimals": 18,
           "order": 5,
           "chainId": 11,
-          "status": false,
+          "status": true,
           "chainName": "Optimism",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
@@ -996,7 +996,7 @@
           "decimals": 18,
           "order": 6,
           "chainId": 11,
-          "status": false,
+          "status": true,
           "chainName": "Optimism",
           "coinGeckoId": "chainlink",
           "tokenVariant": "erc20"
