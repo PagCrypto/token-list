@@ -197,6 +197,9 @@
       "explorer": "https://www.blockchain.com/explorer",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
       "status": false,
+      "key": "bitcoin",
+      "family": "bitcoin",
+      "order": 1,
       "assets": [
         {
           "id": 8,
@@ -213,10 +216,7 @@
           "coinGeckoId": "bitcoin",
           "tokenVariant": "native"
         }
-      ],
-      "key": "bitcoin",
-      "family": "bitcoin",
-      "order": 1
+      ]
     },
     {
       "id": 3,
@@ -342,6 +342,9 @@
       "explorer": "https://xrpscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
       "status": true,
+      "key": "ripple",
+      "family": "xrpl",
+      "order": 5,
       "assets": [
         {
           "id": 14,
@@ -388,10 +391,7 @@
           "coinGeckoId": "usd-coin",
           "tokenVariant": "issued"
         }
-      ],
-      "key": "ripple",
-      "family": "xrpl",
-      "order": 4
+      ]
     },
     {
       "id": 5,
@@ -403,7 +403,7 @@
       "status": true,
       "key": "base",
       "family": "evm",
-      "order": 5,
+      "order": 6,
       "assets": [
         {
           "id": 16,
@@ -523,7 +523,7 @@
       "explorer": "https://polygonscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
       "status": true,
-      "order": 8,
+      "order": 9,
       "assets": [
         {
           "id": 31,
@@ -594,10 +594,10 @@
       "symbol": "TRX",
       "explorer": "https://tronscan.org/#/",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png",
-      "status": true,
+      "status": false,
       "key": "tron",
       "family": "tron",
-      "order": 11,
+      "order": 12,
       "assets": [
         {
           "id": 22,
@@ -609,7 +609,7 @@
           "decimals": 6,
           "order": 1,
           "chainId": 7,
-          "status": true,
+          "status": false,
           "chainName": "TRON",
           "coinGeckoId": "tron",
           "tokenVariant": "native"
@@ -655,7 +655,7 @@
       "explorer": "https://arbiscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11841.png",
       "status": false,
-      "order": 6,
+      "order": 7,
       "assets": [
         {
           "id": 34,
@@ -760,7 +760,7 @@
       "explorer": "https://bscscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
       "status": true,
-      "order": 7,
+      "order": 8,
       "assets": [
         {
           "id": 38,
@@ -850,7 +850,7 @@
       "status": true,
       "key": "hype",
       "family": "evm",
-      "order": 12,
+      "order": 4,
       "assets": [
         {
           "id": 42,
@@ -910,6 +910,7 @@
       "explorer": "https://optimistic.etherscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png",
       "status": true,
+      "order": 10,
       "assets": [
         {
           "id": 52,
@@ -1001,8 +1002,7 @@
           "coinGeckoId": "chainlink",
           "tokenVariant": "erc20"
         }
-      ],
-      "order": 9
+      ]
     },
     {
       "id": 12,
@@ -1014,6 +1014,7 @@
       "explorer": "https://monadexplorer.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/30495.png",
       "status": true,
+      "order": 11,
       "assets": [
         {
           "id": 58,
@@ -1060,8 +1061,7 @@
           "coinGeckoId": "chainlink",
           "tokenVariant": "erc20"
         }
-      ],
-      "order": 10
+      ]
     }
   ],
   "version": "1"
