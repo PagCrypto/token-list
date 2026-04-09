@@ -858,12 +858,12 @@
     {
       "id": 10,
       "evmChainId": 999,
-      "name": "Hyperliquid EVM",
+      "name": "HyperEVM",
       "symbol": "HYPE",
       "explorer": "https://hyperevmscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/32196.png",
       "status": true,
-      "key": "hype",
+      "key": "HyperEVM",
       "family": "evm",
       "order": 4,
       "assets": [
@@ -878,7 +878,7 @@
           "order": 1,
           "chainId": 10,
           "status": true,
-          "chainName": "Hyperliquid EVM",
+          "chainName": "HyperEVM",
           "coinGeckoId": "hyperliquid",
           "tokenVariant": "native"
         },
@@ -893,7 +893,7 @@
           "order": 2,
           "chainId": 10,
           "status": true,
-          "chainName": "Hyperliquid EVM",
+          "chainName": "HyperEVM",
           "coinGeckoId": "usd-coin",
           "tokenVariant": "erc20"
         },
@@ -908,7 +908,7 @@
           "order": 3,
           "chainId": 10,
           "status": true,
-          "chainName": "Hyperliquid EVM",
+          "chainName": "HyperEVM",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
           "tokenVariant": "erc20"
