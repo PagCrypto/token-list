@@ -654,9 +654,24 @@
       "family": "evm",
       "explorer": "https://arbiscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11841.png",
-      "status": false,
+      "status": true,
       "order": 7,
       "assets": [
+        {
+          "id": 61,
+          "symbol": "ETH",
+          "name": "Ethereum (Arbitrum)",
+          "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+          "address": "native",
+          "oracleId": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+          "decimals": 18,
+          "order": 1,
+          "chainId": 11,
+          "status": true,
+          "chainName": "Arbitrum",
+          "coinGeckoId": "ethereum",
+          "tokenVariant": "native"
+        },
         {
           "id": 34,
           "symbol": "ARB",
@@ -667,7 +682,7 @@
           "decimals": 18,
           "order": 1,
           "chainId": 8,
-          "status": false,
+          "status": true,
           "chainName": "Arbitrum",
           "coinGeckoId": "arbitrum",
           "tokenVariant": "erc20"
@@ -682,7 +697,7 @@
           "decimals": 18,
           "order": 2,
           "chainId": 8,
-          "status": false,
+          "status": true,
           "coinGeckoId": "tether",
           "chainName": "Arbitrum",
           "tokenVariant": "erc20"
@@ -697,7 +712,7 @@
           "decimals": 18,
           "order": 3,
           "chainId": 8,
-          "status": false,
+          "status": true,
           "coinGeckoId": "usd-coin",
           "chainName": "Arbitrum",
           "tokenVariant": "erc20"
@@ -712,7 +727,7 @@
           "decimals": 18,
           "order": 4,
           "chainId": 8,
-          "status": false,
+          "status": true,
           "chainName": "Arbitrum",
           "coinGeckoId": "usds",
           "tokenVariant": "erc20"
@@ -727,7 +742,7 @@
           "decimals": 18,
           "order": 5,
           "chainId": 8,
-          "status": false,
+          "status": true,
           "chainName": "Arbitrum",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
@@ -742,7 +757,7 @@
           "decimals": 6,
           "order": 6,
           "chainId": 8,
-          "status": false,
+          "status": true,
           "chainName": "Arbitrum",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
@@ -863,7 +878,7 @@
           "order": 1,
           "chainId": 10,
           "status": true,
-          "chainName": "Hyperliquid",
+          "chainName": "Hyperliquid EVM",
           "coinGeckoId": "hyperliquid",
           "tokenVariant": "native"
         },
@@ -878,7 +893,7 @@
           "order": 2,
           "chainId": 10,
           "status": true,
-          "chainName": "Hyperliquid",
+          "chainName": "Hyperliquid EVM",
           "coinGeckoId": "usd-coin",
           "tokenVariant": "erc20"
         },
@@ -893,7 +908,7 @@
           "order": 3,
           "chainId": 10,
           "status": true,
-          "chainName": "Hyperliquid",
+          "chainName": "Hyperliquid EVM",
           "coinGeckoId": "chainlink",
           "metadataUri": "",
           "tokenVariant": "erc20"
