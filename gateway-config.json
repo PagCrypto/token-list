@@ -428,9 +428,9 @@
           "address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
           "oracleId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
           "decimals": 6,
-          "order": 1,
+          "order": 2,
           "chainId": 5,
-          "status": false,
+          "status": true,
           "coinGeckoId": "tether",
           "chainName": "Base"
         },
@@ -442,13 +442,13 @@
           "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
           "oracleId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
           "decimals": 6,
-          "order": 2,
+          "order": 1,
           "chainId": 5,
           "status": true,
           "coinGeckoId": "usd-coin",
           "chainName": "Base",
           "tokenVariant": "erc20",
-          "fixedRate": 1
+          "fixedRate": 2
         },
         {
           "id": 19,
