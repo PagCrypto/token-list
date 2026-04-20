@@ -481,8 +481,7 @@
           "status": true,
           "coinGeckoId": "usd-coin",
           "chainName": "Base",
-          "tokenVariant": "erc20",
-          "fixedRate": 1
+          "tokenVariant": "erc20"
         },
         {
           "id": 19,
