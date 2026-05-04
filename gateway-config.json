@@ -436,7 +436,7 @@
       "status": true,
       "key": "base",
       "family": "evm",
-      "order": 6,
+      "order": 4,
       "assets": [
         {
           "id": 16,
@@ -627,7 +627,7 @@
       "symbol": "TRX",
       "explorer": "https://tronscan.org/#/",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png",
-      "status": false,
+      "status": true,
       "key": "tron",
       "family": "tron",
       "order": 12,
@@ -642,7 +642,7 @@
           "decimals": 6,
           "order": 1,
           "chainId": 7,
-          "status": false,
+          "status": true,
           "chainName": "TRON",
           "coinGeckoId": "tron",
           "tokenVariant": "native"
@@ -657,7 +657,7 @@
           "decimals": 6,
           "order": 2,
           "chainId": 7,
-          "status": false,
+          "status": true,
           "coinGeckoId": "tether",
           "chainName": "TRON",
           "tokenVariant": "trc20"
@@ -914,7 +914,7 @@
       "status": true,
       "key": "hyperevm",
       "family": "evm",
-      "order": 4,
+      "order": 6,
       "assets": [
         {
           "id": 42,
