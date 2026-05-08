@@ -240,7 +240,7 @@
       "symbol": "ETH",
       "explorer": "https://etherscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
-      "status": false,
+      "status": true,
       "key": "eth",
       "family": "evm",
       "order": 3,
@@ -255,7 +255,7 @@
           "decimals": 18,
           "order": 1,
           "chainId": 3,
-          "status": false,
+          "status": true,
           "wrappedKey": "WETH",
           "chainName": "Ethereum",
           "coinGeckoId": "ethereum",
@@ -271,7 +271,7 @@
           "decimals": 6,
           "order": 2,
           "chainId": 3,
-          "status": false,
+          "status": true,
           "chainName": "Ethereum",
           "coinGeckoId": "tether",
           "tokenVariant": "erc20"
@@ -286,7 +286,7 @@
           "decimals": 6,
           "order": 3,
           "chainId": 3,
-          "status": false,
+          "status": true,
           "chainName": "Ethereum",
           "coinGeckoId": "usd-coin",
           "tokenVariant": "erc20"
@@ -301,7 +301,7 @@
           "decimals": 6,
           "order": 6,
           "chainId": 3,
-          "status": false,
+          "status": true,
           "chainName": "Ethereum",
           "coinGeckoId": "ripple-usd",
           "tokenVariant": "erc20"
@@ -316,7 +316,7 @@
           "decimals": 6,
           "order": 5,
           "chainId": 3,
-          "status": false,
+          "status": true,
           "chainName": "Ethereum",
           "coinGeckoId": "ethena-usde",
           "tokenVariant": "erc20"
@@ -331,7 +331,7 @@
           "decimals": 6,
           "order": 4,
           "chainId": 3,
-          "status": false,
+          "status": true,
           "chainName": "Ethereum",
           "coinGeckoId": "usds",
           "tokenVariant": "erc20"
@@ -346,7 +346,7 @@
           "decimals": 6,
           "order": 7,
           "chainId": 3,
-          "status": false,
+          "status": true,
           "chainName": "Ethereum",
           "coinGeckoId": "euro-coin",
           "tokenVariant": "erc20"
@@ -361,7 +361,7 @@
           "decimals": 18,
           "order": 8,
           "chainId": 3,
-          "status": false,
+          "status": true,
           "chainName": "Ethereum",
           "coinGeckoId": "binancecoin",
           "tokenVariant": "erc20"
