@@ -1131,7 +1131,7 @@
       "id": 13,
       "name": "Stellar",
       "symbol": "XLM",
-      "explorer": "https://stellar.expert/explorer/public",
+      "explorer": "https://stellarchain.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/512.png",
       "status": true,
       "key": "stellar",
