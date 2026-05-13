@@ -1169,21 +1169,6 @@
         },
         {
           "id": 102,
-          "symbol": "yUSDC",
-          "name": "Ultra Capital yUSDC",
-          "icon": "",
-          "address": "GDGTVWSM4MGS4T7Z6W4RPWOCHE2I6RDFCIFZGS3DOA63LWQTRNZNTTFF",
-          "assetCode": "yUSDC",
-          "decimals": 7,
-          "order": 3,
-          "chainId": 13,
-          "status": true,
-          "chainName": "Stellar",
-          "coinGeckoId": "stellar-yusdc",
-          "tokenVariant": "credit_alphanum12"
-        },
-        {
-          "id": 103,
           "symbol": "BRLP",
           "name": "BRLP",
           "icon": "https://brlp.money/icon.png",
