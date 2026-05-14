@@ -377,7 +377,7 @@
       "status": true,
       "key": "ripple",
       "family": "xrpl",
-      "order": 5,
+      "order": 6,
       "assets": [
         {
           "id": 14,
@@ -436,7 +436,7 @@
       "status": true,
       "key": "base",
       "family": "evm",
-      "order": 4,
+      "order": 5,
       "assets": [
         {
           "id": 16,
@@ -556,7 +556,7 @@
       "explorer": "https://polygonscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
       "status": true,
-      "order": 9,
+      "order": 10,
       "assets": [
         {
           "id": 31,
@@ -630,7 +630,7 @@
       "status": true,
       "key": "tron",
       "family": "tron",
-      "order": 12,
+      "order": 13,
       "assets": [
         {
           "id": 22,
@@ -689,7 +689,7 @@
       "explorer": "https://arbiscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11841.png",
       "status": true,
-      "order": 7,
+      "order": 8,
       "assets": [
         {
           "id": 61,
@@ -809,7 +809,7 @@
       "explorer": "https://bscscan.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
       "status": true,
-      "order": 8,
+      "order": 9,
       "assets": [
         {
           "id": 38,
@@ -914,7 +914,7 @@
       "status": true,
       "key": "hyperevm",
       "family": "evm",
-      "order": 6,
+      "order": 7,
       "assets": [
         {
           "id": 42,
@@ -974,7 +974,7 @@
       "explorer": "https://optimistic.etherscan.io",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png",
       "status": true,
-      "order": 10,
+      "order": 11,
       "assets": [
         {
           "id": 52,
@@ -1078,7 +1078,7 @@
       "explorer": "https://monadexplorer.com",
       "icon": "https://s2.coinmarketcap.com/static/img/coins/64x64/30495.png",
       "status": true,
-      "order": 11,
+      "order": 12,
       "assets": [
         {
           "id": 58,
@@ -1136,7 +1136,7 @@
       "status": true,
       "key": "stellar",
       "family": "stellar",
-      "order": 12,
+      "order": 4,
       "assets": [
         {
           "id": 100,
