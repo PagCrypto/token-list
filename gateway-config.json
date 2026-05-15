@@ -25,6 +25,21 @@
           "tokenVariant": "native"
         },
         {
+          "id": 103,
+          "symbol": "BRLP",
+          "name": "Solana",
+          "icon": "https://zrmhagkkw5sllz7hvqqdvcaeu6hd3wggkrto6hhk346vc7w5lmtq.arweave.net/zFhwGUq3ZLXn56wgOogEp4492MZUZu8c6t89UX7dWyc",
+          "address": "CoMzq16KEGib6kRVpqNafyMAWvbsQ2ZyZjgpNusCnmqB",
+          "oracleId": "0xd2db4dbf1aea74e0f666b0e8f73b9580d407f5e5cf931940b06dc633d7a95906",
+          "decimals": 6,
+          "order": 2,
+          "chainId": 1,
+          "status": true,
+          "chainName": "Solana",
+          "coinGeckoId": "brl1",
+          "tokenVariant": "spl-2022"
+        },
+        {
           "id": 3,
           "symbol": "USDC",
           "name": "USD Coin",
